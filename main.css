@@ -1,0 +1,268 @@
+body {
+	background-color: black;
+	font-family: myster_quest;
+}
+
+.custom {
+	width: 40%;
+	height: auto;
+}
+
+.carousel-caption {
+  top: 40%;
+  bottom: auto;
+}
+
+.heading {
+  font-size: 60px;
+  color: #efbc2e;
+}
+
+.lead {
+  font-size: 20px;
+  color: #efbc2e;
+  
+}
+
+.navbar-brand {
+	margin-left: 10px;
+	font-size: 40px;
+}
+
+.nav-item a {
+	font-size: 25px;
+	margin-right: 15px;
+  color: #efbc2e !important;
+}
+
+.card {
+	width: 500px;
+	background-color: black;
+	color: white;
+	border: 0.5px solid #99AAAB;
+	transition: border 0.3s;
+	transition: box-shadow 0.3s;
+}
+
+.card:hover {
+	border: 3px solid #efbc2e;
+	box-shadow: 0 0 30px 1px #efbc2e !important;
+}
+
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml21 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml21 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml22 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml22 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml23 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml23 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.card-title {
+	font-family: newt serif
+}
+
+.ci {
+	height: 35%;
+	width: 73%;
+}
+
+.size {
+  height: 3%;
+  width: auto;
+  margin-left: 50%;
+}
+
+.size1 {
+  height: 3%;
+  width: auto;
+  margin-left: 50%;
+}
+
+html, body {
+      position: relative;
+      height: 100%;
+    }
+
+.swiper-container {
+      width: 100%;
+      height: 600px;
+ }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      position: relative;
+    }
+
+    .slide-text {
+    	position: relative;
+    	left: 0;
+    	top: 40%;
+    	text-align: center;
+    }
+
+    .slide-text h2 {
+    	color: #efbc2e;
+    	font-size: 60px;
+    }
+
+    .slide-text p {
+    	color: #efbc2e;
+    	font-size: 25px;
+    }
+
+.prev {
+  background-image: url(back sword.png) !important;
+}
+
+.next {
+  background-image: url(next sword.png) !important;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.border-top {
+  border-color: rgb(59, 59, 59) !important;
+}
+
+.border {
+  border-color: rgb(150,150,150) !important;
+}
+
+.astroimg {
+  background-position: center center;
+  width: 100%;
+  height: auto;
+}
+
+.contain {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-control {
+  width: 75%;
+  background-color: black;
+  border: 0;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: none;
+    box-shadow: none;
+  background-color: black;
+  border: 0;
+}
+
+.btn-primary {
+    background-color: #efbc2e !important;
+    color: black !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #efbc2e;
+}
+
+.btn-primary:hover {
+  background-color: white !important;
+  color: black;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none !important;
+}
+
+.image {
+  margin-top: 20%;
+  width: 30%;
+  height: auto;
+}
+
+@media screen and (max-width: 991px) {
+	.card {
+		width: 10rem !important;
+		height: 25rem !important;
+	}
+
+	.ci {
+		height: 35%;
+	}
+
+  .border {
+    margin-left: 1% !important;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+	.card {
+		margin-bottom: 50px !important;
+		width: 90% !important;
+		height: auto !important;
+    /*margin: auto !important;*/
+	}
+
+  .carousel-caption {
+    top: 20%;
+    bottom: auto;
+  }
+
+  .heading {
+  font-size: 40px;
+  color: #efbc2e;
+}
+	.ci {
+		width: 35%;
+		height: 50% !important;
+	}
+
+	.space {
+		padding-left: 15% !important;
+	}
+}
